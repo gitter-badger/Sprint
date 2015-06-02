@@ -31,3 +31,37 @@ main > #editor-right-pane > #editor-code {
 .ace_gutter-active-line {
 	display: none;
 }
+
+main > #editor-go {
+	height: 50px;
+	background: rgb(80, 169, 91);
+	text-align: center;
+	line-height: 50px;
+	font-size: 35px;
+	width: 50%;
+	position: absolute;
+	bottom: 30px;
+}
+
+main > #editor-stop {
+	height: 50px;
+	background: rgb(169, 80, 80);
+	text-align: center;
+	line-height: 50px;
+	font-size: 35px;
+	left: 50%;
+	width: 50%;
+	position: absolute;
+	bottom: 30px;
+}
+
+main > #editor-fullscreen {
+	height: 30px;
+	background: rgb(169, 158, 80);
+	text-align: center;
+	line-height: 30px;
+	font-size: 35px;
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+}
