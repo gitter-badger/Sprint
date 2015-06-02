@@ -32,7 +32,7 @@ main > #editor-right-pane > #editor-code {
 	display: none;
 }
 
-main > #editor-go {
+main > #editor-right-pane > #editor-go {
 	height: 50px;
 	background: rgb(80, 169, 91);
 	text-align: center;
@@ -43,7 +43,7 @@ main > #editor-go {
 	bottom: 30px;
 }
 
-main > #editor-stop {
+main > #editor-right-pane > #editor-stop {
 	height: 50px;
 	background: rgb(169, 80, 80);
 	text-align: center;
@@ -55,7 +55,7 @@ main > #editor-stop {
 	bottom: 30px;
 }
 
-main > #editor-fullscreen {
+main > #editor-right-pane > #editor-fullscreen {
 	height: 30px;
 	background: rgb(169, 158, 80);
 	text-align: center;
